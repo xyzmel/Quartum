@@ -91,7 +91,7 @@ const FooterOne = ({ parentClass }) => {
                             <Link
                               to={
                                 process.env.PUBLIC_URL +
-                                `/service-details/${slugify(data.title)}`
+                                `/tjeneste-detaljer/${slugify(data.title)}`
                               }
                             >
                               {data.title}
@@ -109,7 +109,7 @@ const FooterOne = ({ parentClass }) => {
                     <div className="footer-menu-link">
                       <ul className="list-unstyled">
                         <li>
-                          <Link to={process.env.PUBLIC_URL + "/contact"}>
+                          <Link to={process.env.PUBLIC_URL + "/kontakt"}>
                             Kontakt
                           </Link>
                         </li>
