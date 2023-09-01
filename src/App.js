@@ -2,6 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { inject } from '@vercel/analytics';
+ 
+
 
 // Home Pages Import
 import DigitalAgency from "./pages/DigitalAgency";
@@ -40,6 +43,8 @@ import TermsOfUse from "./pages/TermsOfUse";
 
 // Css Import
 import "./assets/scss/app.scss";
+
+inject();
 
 const App = () => {
   return (
@@ -163,6 +168,7 @@ const App = () => {
       </ScrollToTop>
     </Router>
   );
+ 
 };
 
 export default App;
