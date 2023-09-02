@@ -2,9 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { inject } from '@vercel/analytics';
- 
-
+import { inject } from "@vercel/analytics";
 
 // Home Pages Import
 import DigitalAgency from "./pages/DigitalAgency";
@@ -117,10 +115,7 @@ const App = () => {
           />
 
           {/* Pages  */}
-          <Route
-            path={process.env.PUBLIC_URL + "/om"}
-            element={<AboutUs />}
-          />
+          <Route path={process.env.PUBLIC_URL + "/om"} element={<AboutUs />} />
           <Route
             path={process.env.PUBLIC_URL + "/our-office"}
             element={<OurOffice />}
@@ -168,7 +163,6 @@ const App = () => {
       </ScrollToTop>
     </Router>
   );
- 
 };
 
 export default App;

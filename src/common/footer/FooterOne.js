@@ -140,7 +140,7 @@ const FooterOne = ({ parentClass }) => {
               <div className="footer-copyright">
                 <span className="copyright-text">
                   © {new Date().getFullYear()}. Alle rettigheter reservert av{" "}
-                  <a>Quartum AS</a>.
+                  <a>Quartum AS</a>. Org.nr: 929 140 664
                 </span>
               </div>
             </div>
