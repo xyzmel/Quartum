@@ -42,7 +42,7 @@ const FooterOne = ({ parentClass }) => {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/kvartum_media/"
+                  href="https://www.instagram.com/kvartum.no/"
                   target="_blank"
                 >
                   <FaInstagram />
