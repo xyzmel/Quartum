@@ -1,3 +1,15 @@
-
 User-agent: *
-Disallow:
+Disallow: /contact
+Disallow: /digital-agency
+Disallow: /blog-grid/
+Disallow: /project-grid-one
+Disallow: /project-grid-two
+Disallow: /project-grid-three
+Disallow: /project-width-one
+Disallow: /project-width-two
+Disallow: /our-office
+Disallow: /our-clients
+Disallow: /team
+Disallow: /testimonials
+Disallow: /pricing-table
+Disallow: /typography
