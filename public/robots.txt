@@ -13,3 +13,5 @@ Disallow: /team
 Disallow: /testimonials
 Disallow: /pricing-table
 Disallow: /typography
+
+Sitemap: https://kvartum.no/sitemap.xml
